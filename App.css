@@ -1,0 +1,55 @@
+.app-container{
+  display: flex;
+}
+.contain{
+  width: 100%;
+}
+.side-bar{
+  min-height: 800px;
+  max-width: 200px;
+}
+.card-post{
+  margin: 20px 50px;
+  width: 40%;
+
+}
+.cardtag{
+  margin: 0px 3px;
+
+}
+.post_create{
+  margin-top: 50px;
+  margin-left: 10%;
+  width:40%;
+}
+.message{
+  margin: 50px 0;
+}
+/* .rotating{
+  height: 200px;
+  width: 200px;
+  border:2px solid black ;
+  border-radius: 50%;
+  padding:50px 20px;
+ position: absolute;
+ top: 50%;left: 50%;
+  
+
+}
+.rotating::after{
+  box-shadow: 5px 5px 10px grey;
+animation: loading 2s ease;
+      
+}
+@keyframes loading {
+0%{
+  transform: rotate(0deg);
+}
+100%{
+  transform: rotate(360deg);
+}
+  
+} */
+ .loading{
+  margin: 10% 0;
+ }
